@@ -70,7 +70,6 @@ body * {
     width: 32px;
     height: 32px;
     background: white var(--switch-bg-url) no-repeat center;
-    background-size: 90%;
     border: 0;
     border-radius: 50%;
 
@@ -81,7 +80,7 @@ body * {
     transform: translateY(-50%);
 
     animation: slide-back 0.2s;
-    transition: background 0.3s ease-in-out;
+    /* transition: background 0.3s ease-in-out; */
 }
 
 .light #switch button {
